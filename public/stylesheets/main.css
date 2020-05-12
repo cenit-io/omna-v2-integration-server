@@ -1,0 +1,75 @@
+.jumbotron {
+    background: #532F8C;
+    color: white;
+    padding: 1em;
+}
+
+.jumbotron .btn-primary {
+    background: #845ac7;
+    border-color: #845ac7;
+}
+
+.jumbotron .btn-primary:hover {
+    background: #7646c1;
+}
+
+.jumbotron p {
+    color: #d9ccee;
+    max-width: 75%;
+    margin: 1em auto 2em;
+}
+
+.navbar + .jumbotron {
+    margin-top: -20px;
+}
+
+.jumbotron .integration-logo {
+    display: table-cell;
+    background: #B01302;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+}
+
+.jumbotron .title {
+    display: table-cell;
+    height: 70px;
+    padding-left: 1ex;
+    vertical-align: middle;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.jumbotron .integration-logo img {
+    max-width: 100%;
+}
+
+.omna-doc-api:before,
+.icon-cenit-io:before {
+    content: "IXI";
+    font-size: 18px;
+    color: transparent;
+    padding: 0px 1px 1px;
+}
+
+.icon-cenit-io:before {
+    background: url("/public/images/cenit-logo.png") no-repeat center;
+}
+
+.omna-doc-api:before {
+    background: url("/public/images/omna-logo.png") no-repeat center;
+}
+
+.without-margin {
+    padding: 0;
+    margin: 0;
+}
+
+.details {
+    background-color: white;
+    color: black;
+    padding: 1ex;
+    border: 1px solid;
+}

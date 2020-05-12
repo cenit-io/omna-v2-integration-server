@@ -1,0 +1,33 @@
+{
+  "name": "omna-v2-integration-server",
+  "version": "1.0.0",
+  "description": "REST service to run Cenit-IO remote algorithms written in Node JS.",
+  "main": "index.js",
+  "engines": {
+    "node": "4.3.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cenit-io/omna-v2-integration-server.git"
+  },
+  "author": {
+    "name": "Yoandry Pacheco Aguila",
+    "email": "yoandrypa@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cenit-io/omna-v2-integration-server/issues"
+  },
+  "homepage": "https://github.com/cenit-io/omna-v2-integration-server",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "utils": "^0.3.1"
+  }
+}
