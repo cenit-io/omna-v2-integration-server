@@ -1,10 +1,10 @@
 {
   "name": "omna-v2-integration-server",
   "version": "1.0.0",
-  "description": "REST service to run Cenit-IO remote algorithms written in Node JS.",
+  "description": "OMNAv2 Abstract Integration Server.",
   "main": "index.js",
   "engines": {
-    "node": "4.3.1"
+    "node": "12.16.2"
   },
   "scripts": {
     "start": "node index.js"
@@ -13,15 +13,25 @@
     "type": "git",
     "url": "git+https://github.com/cenit-io/omna-v2-integration-server.git"
   },
-  "author": {
-    "name": "Yoandry Pacheco Aguila",
-    "email": "yoandrypa@gmail.com"
-  },
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cenit-io/omna-v2-integration-server/issues"
   },
   "homepage": "https://github.com/cenit-io/omna-v2-integration-server",
+  "license": "LGPL-3.0",
+  "licenses": [
+    {
+      "type": "LGPL-3.0",
+      "url": "http://spdx.org/licenses/LGPL-3.0.html#licenseText"
+    },
+    {
+      "type": "EPL-1.0",
+      "url": "http://spdx.org/licenses/EPL-1.0.html#licenseText"
+    }
+  ],
+  "author": {
+    "name": "Yoandry Pacheco Aguila",
+    "email": "yoandrypa@gmail.com"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
